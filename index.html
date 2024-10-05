@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrumdomme</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@latest/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>
+    /*.blr { animation: change-border-color 3s linear infinite; overflow: hidden;}
+    @keyframes change-border-color {
+    0% {
+        border-color: #e2e0de; 
+    }
+    25% {
+        border-color: #0099FF; 
+    }
+    50% {
+        border-color: #e2e0de; 
+    }
+    75% {
+        border-color: #0099FF; 
+    }
+    100% {
+        border-color: #e2e0de; 
+    }
+}*/
+.cub {
+    height: 2em;
+    width: 2px;
+    background: #0099ff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg ptb0">
+        <div class="container blr px-4 py-2">
+            <a class="navbar-brand" href="#"  data-aos="fade-down" class="aos-init aos-animate">
+                <img src="img/logo.svg" alt="logo" title="Ferrumdomme Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"  data-aos="fade-down" class="aos-init aos-animate">
+                <i class="bi bi-plus" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav"  data-aos="fade-down" class="aos-init aos-animate">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+                <div class="d-flex flex-column flex-lg-row my-3 my-sm-0">
+                    <a href="download-link" class="btn btn-dark mx-1 mb-2 mb-lg-0 px-3" role="button">Download</a>
+                    <a href="login-link" class="btn btn-light btn-outline-secondary mx-1 mb-2 mb-lg-0 px-3" role="button">Log in</a>
+                    <a href="register-link" class="btn btn-light btn-outline-secondary mx-1 px-3" role="button">Register</a>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    <div class="row justify-content-center  py-2 btb" data-aos="fade-right">
+        <div class="d-flex justify-content-center align-items-center">
+            <button type="button" class="btn btn-sm btn-outline-primary mx-2">NEW</button>
+            <span>This banner can be used to inform visitors of something important!</span>
+        </div>
+    </div>
+    <div class="container blr ptb0 p-5">
+        <button class="disable btn btn-sm btn-light btn-outline-secondary mb-2 mb-lg-0 px-3 d-flex align-items-center" role="button" data-aos="fade-right">
+            <img src="img/icon/cloud.svg" class="me-2" alt="Cloud Icon">Cloud Networks
+        </button>
+        <div class="row">
+            <div class="col-md-7 d-flex flex-column justify-content-end" data-aos="fade-right">
+                <h1 class="mb-0 text-gradient">Open Source,</h1>
+                <h1 class="mb-0 text-primary">Zero Trust Access.</h1>
+            </div>
+            <div class="col-md-5" data-aos="fade-left">
+                <div class="col">
+                    <p>Apply zero trust principles with a few clicks, without no change at your network.</p>
+                    <p>Forget traditional VLANs, firewalls, meet the future of cyber security.</p>
+                </div>
+                <div class="col">
+                    <a href="download-link" class="btn btn-sm btn-dark mx-1 mb-2 mb-lg-0 px-3" role="button">Get Started <i class="bi bi-arrow-right"></i></a>
+                    <a href="login-link" class="btn btn-sm btn-light btn-outline-secondary mx-1 mb-2 mb-lg-0 px-3" role="button">Contact Sales <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row devices justify-content-center align-items-end mt-5" data-aos="zoom-in" data-aos-duration="300">
+            <img alt="phone" src="img/cloud/phone.svg" class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+        </div>
+    </div>
+<!--Case-->
+    <div class="container blr ptb0 bt">
+        <button  data-aos="fade-up" class="mx-auto disable btn btn-sm btn-light btn-outline-secondary mx-1 mb-2 my-5 mb-lg-0 px-3 d-flex align-items-center" role="button">
+            Use Cases
+        </button>
+        <div data-aos="fade-up" class="row text-center justify-content-center pt-3 pb-4">
+            <h2 class="col-12 col-md-4">Easy to Use Awesome Cases</h2>
+        </div>
+        <div class="row bt">
+            <div class="case col-md-4 p-3 br bb" data-aos="fade-up" data-aos-duration="300">
+                <div class="cub"></div>
+                <img class="my-4" src="img/icon/secure.svg">
+                <h5>Secure Remote Access</h5>
+                <p>Zero trust access can be used to secure remote access to corporate resources by verifying user identity and device.</p>
+            </div>
+
+            <div class="case col-md-4 p-3 br bb" data-aos="fade-up" data-aos-duration="600">
+                <div class="cub"></div>
+                <img class="my-4" src="img/icon/security.svg">
+                <h5 class="mt-3">Cloud Security</h5>
+                <p>Zero trust access can be used to secure access to cloud resources, including SaaS applications, by ensuring that.</p>
+            </div>
+            <div class="case col-md-4 p-3 bb" data-aos="fade-up" data-aos-duration="900">
+                <div class="cub"></div>
+                <img class="my-4" src="img/icon/priv.svg">
+                <h5>Privileged Access Management</h5>
+                <p>Zero trust access can be used to secure privileged accounts and access to critical systems by implementing strict</p>
+            </div>
+            <div class="case col-md-4 p-3 br"  data-aos="fade-up" data-aos-duration="1200">
+                <div class="cub"></div>
+                <img class="my-4" src="img/icon/identity.svg">
+                <h5>Identity and Access Management</h5>
+                <p>Zero trust access can be used to secure privileged accounts and access to critical systems by implementing strict</p>
+            </div>
+            <div class="case col-md-4 p-3 br"  data-aos="fade-up" data-aos-duration="1500">
+                <div class="cub"></div>
+                <img class="my-4" src="img/icon/endpoint.svg">
+                <h5>Endpoint Security</h5>
+                <p>Zero trust access can be used to secure privileged accounts and access to critical systems by implementing strict</p>
+            </div>
+            <div class="case col-md-4 p-3"  data-aos="fade-up" data-aos-duration="1800">
+                <div class="cub"></div>
+                <img class="my-4" src="img/icon/iot.svg">
+                <h5>IoT (Internet of Things)</h5>
+                <p>Zero trust access can be used to secure privileged accounts and access to critical systems by implementing strict</p>
+            </div>
+        </div>
+    </div>
+<!--Features-->
+    <div class="container blr ptb0 bt">
+        <button  data-aos="fade-up"  class="mx-auto disable btn btn-sm btn-light btn-outline-secondary mx-1 mb-2 my-5 mb-lg-0 px-3 d-flex align-items-center" role="button">
+            <img src="img/icon/blog.svg" class="me-2">Features
+        </button>
+        <div  data-aos="fade-up"  class="row text-center justify-content-center pt-3 pb-4">
+            <h2 class="col-12 col-md-4">Easy to Use Awesome Features
+            </h2>
+        </div>
+        <div class="row pb-3">
+            <div class="col-md-4 mb-4 mb-sm-3" data-aos="fade-up" data-aos-duration="300">
+                <div class="col-12 bg-white btb blr blog">
+                    <div class="cub"></div>
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1717501217986-f2c4842edfd7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI5fHxhaXxlbnwwfDB8MHx8fDA%3D" alt="Features" class="fade-img">
+                    </div>
+                    <div class="col px-4 py-3">
+                    <h5>Open Source</h5>
+                    <p>All sources are on github. Please give it a star. All contributions are welcome, please join us. And community is here.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-sm-3" data-aos="fade-up" data-aos-duration="600">
+                <div class="col-12 bg-white btb blr blog">
+                    <div class="cub"></div>
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1717501217986-f2c4842edfd7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI5fHxhaXxlbnwwfDB8MHx8fDA%3D" alt="Features" class="fade-img">
+                    </div>
+                    <div class="col px-4 py-3">
+                    <h5>Open Source</h5>
+                    <p>All sources are on github. Please give it a star. All contributions are welcome, please join us. And community is here.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-sm-3" data-aos="fade-up" data-aos-duration="900">
+                <div class="col-12 bg-white btb blr blog">
+                    <div class="cub"></div>
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1717501217986-f2c4842edfd7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI5fHxhaXxlbnwwfDB8MHx8fDA%3D" alt="Features" class="fade-img">
+                    </div>
+                    <div class="col px-4 py-3">
+                    <h5>Open Source</h5>
+                    <p>All sources are on github. Please give it a star. All contributions are welcome, please join us. And community is here.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-sm-3" data-aos="fade-up" data-aos-duration="1200">
+                <div class="col-12 bg-white btb blr blog">
+                    <div class="cub"></div>
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1717501217986-f2c4842edfd7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI5fHxhaXxlbnwwfDB8MHx8fDA%3D" alt="Features" class="fade-img">
+                    </div>
+                    <div class="col px-4 py-3">
+                    <h5>Open Source</h5>
+                    <p>All sources are on github. Please give it a star. All contributions are welcome, please join us. And community is here.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-sm-3" data-aos="fade-up" data-aos-duration="1500">
+                <div class="col-12 bg-white btb blr blog">
+                    <div class="cub"></div>
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1717501217986-f2c4842edfd7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI5fHxhaXxlbnwwfDB8MHx8fDA%3D" alt="Features" class="fade-img">
+                    </div>
+                    <div class="col px-4 py-3">
+                    <h5>Open Source</h5>
+                    <p>All sources are on github. Please give it a star. All contributions are welcome, please join us. And community is here.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-sm-3" data-aos="fade-up" data-aos-duration="1800">
+                <div class="col-12 bg-white btb blr blog">
+                    <div class="cub"></div>
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1717501217986-f2c4842edfd7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI5fHxhaXxlbnwwfDB8MHx8fDA%3D" alt="Features" class="fade-img">
+                    </div>
+                    <div class="col px-4 py-3">
+                    <h5>Open Source</h5>
+                    <p>All sources are on github. Please give it a star. All contributions are welcome, please join us. And community is here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Pricing-->
+    <div class="container blr ptb0 bt">
+        <button data-aos="fade-up" class="mx-auto disable btn btn-sm btn-light btn-outline-secondary mx-1 mb-2 my-5 mb-lg-0 px-3 d-flex align-items-center" role="button">
+            <img src="img/icon/pricing.svg" class="me-2">Pricing
+        </button>
+        <div data-aos="fade-up"  class="row text-center justify-content-center pt-3 pb-4">
+            <h2 class="col-12 col-md-4">Plans that work<br><span class="text-primary">for everyone</span></h2>
+
+            <p>You can always add devices without adding more users to your plan.</p>
+            <div class="text-center pt-1 pb-3">
+                <a href="contact-link" class="btn btn-sm btn-dark mx-1 mb-2 mb-lg-0 px-3" role="button">Contact Us <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4 mb-sm-3"  data-aos="fade-up" data-aos-duration="300">
+                <div class="col-12 p-4 bg-white btb blr blog h-100">
+                    <div class="col d-flex justify-content-between align-items-center">
+                        <a href="login-link" class="btn btn-light btn-outline-secondary mx-1 mb-0 px-3" role="button">Starter</a>
+                        <button type="button" class="btn btn-sm btn-outline-primary mx-1">MOST POPULAR</button>
+                    </div>                    
+                    <span class="text-dark d-block" style="font-size: 3rem;">$0</span>
+                    <p class="my-3">Per Active User / Month</p>
+                    <p>For individuals who want to securely connect personal devices, for free.</p>
+                    <a href="download-link" class="btn btn-sm btn-dark mx-1 mb-2 px-3 w-100 mb-3" role="button">Get Started Free</a>
+                    <div class="d-flex">
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-5"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><span>Peer-To-Peer Connections</span></li>
+                            <li class="mb-2"><span>MagicDNS</span></li>
+                            <li class="mb-4"><span>Network, Resource-level, and Attribute-based Access Policies (ACLs)</span></li>
+                            <li class="mb-2"><span>User Approval</span></li>
+                            <li class="mb-2"><span>SSO with any IdP</span></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-sm-3" data-aos="fade-up" data-aos-duration="600">
+                <div class="col-12 p-4 bg-white btb blr blog h-100">
+                    <div class="col d-flex justify-content-between">
+                        <a href="login-link" class="btn btn-light btn-outline-secondary mx-1 mb-lg-0 px-3" role="button">Starter</a>
+                    </div>
+                    <span class="text-dark d-block" style="font-size: 3rem;">$6</span>
+                    <p class="my-3">Per Active User / Month</p>
+                    <p>For individuals who want to securely connect personal devices, for free.</p>
+                    <a href="download-link" class="btn btn-sm btn-dark mx-1 mb-2 px-3 w-100 mb-3" role="button">Get Started Free</a>
+                    <div class="d-flex">
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><span>ACL tags</span></li>
+                            <li class="mb-2"><span>Auth Keys</span></li>
+                            <li class="mb-2"><span>Network flow logging</span></li>
+                            <li class="mb-2"><span>Tailscale SSH</span></li>
+                            <li class="mb-2"><span>Tailscale Funnel</span></li>
+                            <li class="mb-2"><span>GitOps for ACLs</span></li>
+                            <li class="mb-2"><span>Advanced user roles</span></li>
+                            <li class="mb-2"><span>MDM Policies</span></li>
+                            <li class="mb-2"><span>Priority support</span></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-sm-3" data-aos="fade-up" data-aos-duration="900">
+                <div class="col-12 p-4 bg-white btb blr blog h-100">
+                    <div class="col d-flex justify-content-between">
+                        <a href="login-link" class="btn btn-light btn-outline-secondary mx-1 mb-lg-0 px-3" role="button">Starter</a>
+                    </div>
+                    <span class="text-dark d-block" style="font-size: 3rem;">$18</span>
+                    <p class="my-3">Per Active User / Month</p>
+                    <p>For individuals who want to securely connect personal devices, for free.</p>
+                    <a href="download-link" class="btn btn-sm btn-dark mx-1 mb-2 px-3 w-100 mb-3" role="button">Get Started Free</a>
+                    <div class="d-flex">
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><span>ACL tags</span></li>
+                            <li class="mb-2"><span>Auth Keys</span></li>
+                            <li class="mb-2"><span>Network flow logging</span></li>
+                            <li class="mb-2"><span>Tailscale SSH</span></li>
+                            <li class="mb-2"><span>Tailscale Funnel</span></li>
+                            <li class="mb-2"><span>GitOps for ACLs</span></li>
+                            <li class="mb-2"><span>Advanced user roles</span></li>
+                            <li class="mb-2"><span>MDM Policies</span></li>
+                            <li class="mb-2"><span>Priority support</span></li>
+                            <li class="mb-2"><span>Priority support</span></li>
+                            <li class="mb-2"><span>Priority support</span></li>
+                            <li class="mb-2"><span>Priority support</span></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+            <div class="col-12 mt-3 px-4 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="row p-4 bg-white btb blr blog h-100">
+                    <div class="col-md-4 p-2"  style="border-right: 2px solid #e2e0de;">
+                        <a href="login-link" class="btn btn-light btn-outline-secondary mx-1 mb-lg-0 px-3" role="button">Enterprice</a>
+                        <h1 class="text-dark mt-3">Custom</h1>
+                        <p class="my-3">Per Active User / Month</p>
+                        <p>For individuals who want to securely connect personal devices, for free.</p>
+                        <a href="download-link" class="btn btn-sm btn-dark me-5 mb-2 px-3 w-100 mb-3" role="button">Get Started Free <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                                <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                                <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                                <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                                <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                                <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                                <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                                <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><span>ACL tags</span></li>
+                                <li class="mb-2"><span>Auth Keys</span></li>
+                                <li class="mb-2"><span>Network flow logging</span></li>
+                                <li class="mb-2"><span>Tailscale SSH</span></li>
+                                <li class="mb-2"><span>Tailscale Funnel</span></li>
+                                <li class="mb-2"><span>GitOps for ACLs</span></li>
+                                <li class="mb-2"><span>Advanced user roles</span></li>
+                                <li class="mb-2"><span>MDM Policies</span></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                                <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                                <li class="mb-2"><img src="img/icon/CheckCircle.svg" class="me-2"></li>
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><span>ACL tags</span></li>
+                                <li class="mb-2"><span>Auth Keys</span></li>
+                                <li class="mb-2"><span>Network flow logging</span></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Blog-->
+    <div class="container blr ptb0 bt">
+        <button  data-aos="fade-up" class="mx-auto disable btn btn-sm btn-light btn-outline-secondary mx-1 mb-2 my-5 mb-lg-0 px-3 d-flex align-items-center" role="button">
+            <img src="img/icon/blog.svg" class="me-2">Blog
+        </button>
+        <div  data-aos="fade-up" class="row text-center justify-content-center pt-3 pb-4">
+            <h2 class="col-12 col-md-4">Blog lorem ipsum</h2>
+            <p>You can always add devices without adding more users to your plan.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4" data-aos="fade-up" data-aos-duration="300">
+                <div class="col-12 p-4 bg-white btb blr blog">
+                    <div class="col p-2"><img src="img/blog/post.svg" class="w-100" alt="blog post"></div>
+                    <button type="button" class="btn mt-3 btn-sm btn-outline-primary mx-2">MOST POPULAR</button>
+                    <div class="col p-2">
+                    <h4>Tailscale and TunnelVision: our analysis</h4>
+                    <p>Since the disclosure of the TunnelVision bug (CVE 2024-3661) by researchers at Leviathan Secur..</p>
+                    <a href="read-more" class="btn btn-sm btn-light btn-outline-secondary mx-1 mb-2 mb-lg-0 px-3" role="button">Read more <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-duration="600">
+                <div class="col-12 p-4 bg-white btb blr blog">
+                    <div class="col p-2"><img src="img/blog/post.svg" class="w-100" alt="blog post"></div>
+                    <button type="button" class="btn mt-3 btn-sm btn-outline-primary mx-2">MOST POPULAR</button>
+                    <div class="col p-2">
+                    <h4>Tailscale and TunnelVision: our analysis</h4>
+                    <p>Since the disclosure of the TunnelVision bug (CVE 2024-3661) by researchers at Leviathan Secur..</p>
+                    <a href="read-more" class="btn btn-sm btn-light btn-outline-secondary mx-1 mb-2 mb-lg-0 px-3" role="button">Read more <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-duration="900">
+                <div class="col-12 p-4 bg-white btb blr blog">
+                    <div class="col p-2"><img src="img/blog/post.svg" class="w-100" alt="blog post"></div>
+                    <button type="button" class="btn mt-3 btn-sm btn-outline-primary mx-2">MOST POPULAR</button>
+                    <div class="col p-2">
+                    <h4>Tailscale and TunnelVision: our analysis</h4>
+                    <p>Since the disclosure of the TunnelVision bug (CVE 2024-3661) by researchers at Leviathan Secur..</p>
+                    <a href="read-more" class="btn btn-sm btn-light btn-outline-secondary mx-1 mb-2 mb-lg-0 px-3" role="button">Read more <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-5" data-aos="fade-up">
+            <a href="download-link" class="btn btn-sm btn-dark mx-1 mb-2 mb-lg-0 px-3" role="button">View more</a>
+        </div>
+    </div>
+<!--Cloud-->
+    <div class="container blr ptb0 bt">
+        <button data-aos="fade-up" class="mx-auto disable btn btn-sm btn-light btn-outline-secondary mx-1 mb-2 my-5 mb-lg-0 px-3 d-flex align-items-center" role="button">
+            <img src="img/icon/cloud.svg" class="me-2">Cloud Networks
+        </button>
+        <div  data-aos="fade-up" class="row text-center justify-content-center pt-3 pb-4">
+            <div class="col">
+                <h1 class="mb-0 text-gradient">Open Source,</h1>
+                <h1 class="mb-0 text-primary">Zero Trust Access.</h1>
+            </div>
+            <p>You can always add devices without adding more users to your plan.</p>
+            <div class="text-center py-1">
+                <a href="download-link" class="btn btn-sm btn-dark mx-1 mb-2 mb-lg-0 px-3" role="button">
+                    Download Now <img src="img/icon/download.svg">
+                </a>
+            </div>
+        </div>
+        <div class="row text-center px-5 justify-content-center pt-3 pb-4">
+            <div class="col-md-4"><p>© 2024 FerrumDome. All rights reserved.</p></div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <p class="px-3" style="border: 2px solid #e2e0de; width:max-content; border-radius:5em;">
+                    <img src="img/icon/normal.svg" class="me-2">All system normal
+                </p>
+            </div>
+            <div class="col-md-4"><a href="privacy-link">Privacy Policy - Terms & Conditions</a></div>
+        </div>
+    </div>
+</div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/style.js"></script>
+</body>
+</html>
